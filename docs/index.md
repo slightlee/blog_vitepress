@@ -1,13 +1,16 @@
 ---
 layout: home
 
-title: demain_lee
+title: false
 titleTemplate: 记录工作，享受生活
 
 hero:
   name: 记录工作，享受生活
-  text: false
+  text: 
   tagline: Record work, enjoy life
+  image:
+    src: /logo.svg
+    alt: images
   actions:
     - theme: brand
       text: 开始旅行
