@@ -1,0 +1,32 @@
+name: sync dist to server
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+      # 安装依赖
+      - name: install
+        run: yarn add --dev vitepress vue
+      # 打包
+      - name: build dist
+        run: yarn docs:build
+      # 同步文件
+      - name: sync file
+        uses: nogsantos/scp-deploy@master
+        with:
+          host: ${{ secrets.HOST }}
+          user: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.PORT }}
+          src: "./docs/.vitepress/dist/*"
+          remote: ${{ secrets.PATH }}
