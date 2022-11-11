@@ -6,7 +6,7 @@ module.exports = [
         text: '记录工作',
         items: [
             { text: 'Springboot', link: '/springboot/1' },
-            { text: 'SpringCloud', link: '/springcloud/2' },
+            { text: 'SpringCloud', link: '/spring-cloud/2' },
             { text: 'Docker', link: '/docker/3' }
         ]
     },

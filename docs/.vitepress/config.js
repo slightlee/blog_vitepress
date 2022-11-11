@@ -2,10 +2,10 @@ const nav = require('./configs/nav')
 const sidebar = require('./configs/sidebar')
 
 module.exports = {
-    // base: '/docs/',   # 例如发布到 http://xxxxx.github.io/docs/  那么这里的base就填写 /docs/
+    // base: '/docs/',  // # 例如发布到 http://xxxxx.github.io/docs/  那么这里的base就填写 /docs/
     head: [["link", { rel: "icon", type: "image/svg+xml", href: "logo.svg" }]],   // 标签栏logo
-    title: "demain_lee",
-    description: "demain_lee 的博客",
+    title: "明天的博客",
+    description: "明天的博客",
     markdown: {
         theme: 'material-palenight',        //md主题
         lineNumbers: true                   //md 加行号
@@ -15,7 +15,7 @@ module.exports = {
     // 主题配置
     themeConfig: {
         logo: '/logo.svg',             // logo  
-        siteTitle: 'demain_lee',     // 自定义文本 , 默认情况下，nav 显示站点引用config.title值的标题
+        siteTitle: '明天的博客',     // 自定义文本 , 默认情况下，nav 显示站点引用config.title值的标题
         // siteTitle: false,              // 隐藏站点标题文本
         //右上角图标和链接，icon 可用svg 配置
         socialLinks: [
@@ -36,7 +36,7 @@ module.exports = {
         outlineTitle: '目录',
         footer: {
             message: false,
-            copyright: '© 2022 demain_lee'
+            copyright: '© 2022 明天'
         }
     }
 }

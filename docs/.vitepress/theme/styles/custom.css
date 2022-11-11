@@ -7,43 +7,43 @@ https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/var
 /* Colors Base */
 :root {
 
-  --vp-c-text-dark-1: rgba(255, 255, 255, 0.87);
-  --vp-c-text-dark-2: rgba(235, 235, 235, 0.6);
-  --vp-c-text-dark-3: rgba(235, 235, 235, 0.38);
-  --vp-c-text-dark-4: rgba(235, 235, 235, 0.18);
+    --vp-c-text-dark-1: rgba(255, 255, 255, 0.87);
+    --vp-c-text-dark-2: rgba(235, 235, 235, 0.6);
+    --vp-c-text-dark-3: rgba(235, 235, 235, 0.38);
+    --vp-c-text-dark-4: rgba(235, 235, 235, 0.18);
 
-  --vp-c-green: #42b883;
-  --vp-c-green-light: #42d392;
-  --vp-c-green-lighter: #35eb9a;
-  --vp-c-green-dark: #33a06f;
-  --vp-c-green-darker: #155f3e;
-  --vp-c-green-dimm-1: rgba(66, 184, 131, 0.5);
-  --vp-c-green-dimm-2: rgba(66, 184, 131, 0.25);
-  --vp-c-green-dimm-3: rgba(66, 184, 131, 0.05);
+    --vp-c-green: #42b883;
+    --vp-c-green-light: #42d392;
+    --vp-c-green-lighter: #35eb9a;
+    --vp-c-green-dark: #33a06f;
+    --vp-c-green-darker: #155f3e;
+    --vp-c-green-dimm-1: rgba(66, 184, 131, 0.5);
+    --vp-c-green-dimm-2: rgba(66, 184, 131, 0.25);
+    --vp-c-green-dimm-3: rgba(66, 184, 131, 0.05);
 
-  --vp-c-yellow: #ffc517;
-  --vp-c-yellow-light: #fcd253;
-  --vp-c-yellow-lighter: #fcfc7c;
-  --vp-c-yellow-dark: #e0ad15;
-  --vp-c-yellow-darker: #ad850e;
-  --vp-c-yellow-dimm-1: rgba(255, 197, 23, 0.5);
-  --vp-c-yellow-dimm-2: rgba(255, 197, 23, 0.25);
-  --vp-c-yellow-dimm-3: rgba(255, 197, 23, 0.05);
+    --vp-c-yellow: #ffc517;
+    --vp-c-yellow-light: #fcd253;
+    --vp-c-yellow-lighter: #fcfc7c;
+    --vp-c-yellow-dark: #e0ad15;
+    --vp-c-yellow-darker: #ad850e;
+    --vp-c-yellow-dimm-1: rgba(255, 197, 23, 0.5);
+    --vp-c-yellow-dimm-2: rgba(255, 197, 23, 0.25);
+    --vp-c-yellow-dimm-3: rgba(255, 197, 23, 0.05);
 
-  --vp-c-red: #ed3c50;
-  --vp-c-red-light: #f54e82;
-  --vp-c-red-lighter: #fd1d7c;
-  --vp-c-red-dark: #cd2d3f;
-  --vp-c-red-darker: #ab2131;
-  --vp-c-red-dimm-1: rgba(237, 60, 80, 0.5);
-  --vp-c-red-dimm-2: rgba(237, 60, 80, 0.25);
-  --vp-c-red-dimm-3: rgba(237, 60, 80, 0.05);
+    --vp-c-red: #ed3c50;
+    --vp-c-red-light: #f54e82;
+    --vp-c-red-lighter: #fd1d7c;
+    --vp-c-red-dark: #cd2d3f;
+    --vp-c-red-darker: #ab2131;
+    --vp-c-red-dimm-1: rgba(237, 60, 80, 0.5);
+    --vp-c-red-dimm-2: rgba(237, 60, 80, 0.25);
+    --vp-c-red-dimm-3: rgba(237, 60, 80, 0.05);
 
-  --vp-c-purple: #646cff;
-  --vp-c-purple-light: #535cf9;
-  --vp-c-purple-lighter: #535bf9;
-  --vp-c-purple-dark: #040a8e;
-  --vp-c-purple-darker: #01077e;
+    --vp-c-purple: #646cff;
+    --vp-c-purple-light: #535cf9;
+    --vp-c-purple-lighter: #535bf9;
+    --vp-c-purple-dark: #040a8e;
+    --vp-c-purple-darker: #01077e;
 
 }
 
@@ -51,62 +51,63 @@ https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/var
 /* Colors Theme */
 :root {
 
-  --vp-c-brand: var(--vp-c-purple);
-  --vp-c-brand-light: var(--vp-c-purple-light);
-  --vp-c-brand-lighter: var(--vp-c-purple-lighter);
-  --vp-c-brand-dark: var(--vp-c-purple-dark);
-  --vp-c-brand-darker: var(--vp-c-purple-darker);
+    --vp-c-brand: var(--vp-c-purple);
+    --vp-c-brand-light: var(--vp-c-purple-light);
+    --vp-c-brand-lighter: var(--vp-c-purple-lighter);
+    --vp-c-brand-dark: var(--vp-c-purple-dark);
+    --vp-c-brand-darker: var(--vp-c-purple-darker);
 
 }
 
 /* Button按钮 */
 :root {
-  --vp-button-brand-border: var(--vp-c-brand-light);
-  --vp-button-brand-text: var(--vp-c-text-dark-1);
-  --vp-button-brand-bg: var(--vp-c-brand);
-  --vp-button-brand-hover-border: var(--vp-c-brand-light);
-  --vp-button-brand-hover-text: var(--vp-c-text-dark-1);
-  --vp-button-brand-hover-bg: var(--vp-c-brand-light);
-  --vp-button-brand-active-border: var(--vp-c-brand-light);
-  --vp-button-brand-active-text: var(--vp-c-text-dark-1);
-  --vp-button-brand-active-bg: var(--vp-button-brand-bg);
+    --vp-button-brand-border: var(--vp-c-brand-light);
+    --vp-button-brand-text: var(--vp-c-text-dark-1);
+    --vp-button-brand-bg: var(--vp-c-brand);
+    --vp-button-brand-hover-border: var(--vp-c-brand-light);
+    --vp-button-brand-hover-text: var(--vp-c-text-dark-1);
+    --vp-button-brand-hover-bg: var(--vp-c-brand-light);
+    --vp-button-brand-active-border: var(--vp-c-brand-light);
+    --vp-button-brand-active-text: var(--vp-c-text-dark-1);
+    --vp-button-brand-active-bg: var(--vp-button-brand-bg);
 }
 
 
 /* Home 布局 */
 :root {
-  
-  /* 标题 */
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(135deg, #43CBFF 10%, #9708CC 100%);
 
-  /* 图标背景 */
-  --vp-home-hero-image-background-image: linear-gradient(135deg, #43CBFF 10%, #9708CC 100%);
-  --vp-home-hero-image-filter: blur(150px);
+    /* 标题 */
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: linear-gradient(135deg, #43CBFF 10%, #9708CC 100%);
+
+    /* 图标背景 */
+    --vp-home-hero-image-background-image: linear-gradient(135deg, #43CBFF 10%, #9708CC 100%);
+    --vp-home-hero-image-filter: blur(150px);
 
 }
 
 
+/* 自定义 layout: home 样式 宽度 640  960 尺寸变化*/
 
-/* 自定义 layout: home 样式 */
-.VPFeature[data-v-549c013f] {
-  --vp-c-bg-soft: #eaebfd;
-  border: 0px solid var(--vp-c-bg-soft);
+/* features 内容样式 */
+.VPFeature {
+    --vp-c-bg-soft: #eaebfd;
+    border: 0px solid var(--vp-c-bg-soft);
 }
 
-
+/* 屏幕尺寸 960px 样式 */
 @media (min-width: 960px) {
- 
-  .VPContent.is-home[data-v-98ddab3d] {
-    width: 100%;
-    max-width: 100%;
-    margin-top: 130px;
-  }
 
-  .VPFeatures[data-v-f5090ebe] {
-    position: relative;
-    padding: 0 24px;
-    margin-top: 200px;
-  }
+    .VPContent .is-home {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 130px;
+    }
+
+    .VPFeatures {
+        position: relative;
+        padding: 0 24px;
+        margin-top: 200px;
+    }
 
 }

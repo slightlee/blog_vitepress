@@ -7,13 +7,13 @@ titleTemplate: 记录工作，享受生活
 hero:
   name: 记录工作，享受生活
   text: 
-  tagline: Record work, enjoy life
+  tagline: record work, enjoy life
   image:
     src: /logo.svg
     alt: images
   actions:
     - theme: brand
-      text: 开始旅行
+      text: 开始
       link: /springboot/1
     - theme: alt
       text: 关于我
