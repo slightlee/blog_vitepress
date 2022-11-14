@@ -22,11 +22,11 @@ jobs:
         run: yarn docs:build
       # 同步文件
       - name: sync file
-        uses: nogsantos/scp-deploy@master
+        uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.HOST }}
-          user: ${{ secrets.USERNAME }}
+          username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.PORT }}
-          src: "./docs/.vitepress/dist/*"
-          remote: ${{ secrets.PATH }}
+          source: ${{ secrets.SOURCE_PATH }}
+          target: ${{ secrets.TARGET_PATH }}
