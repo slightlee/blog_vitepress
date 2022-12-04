@@ -13,6 +13,15 @@ function sidebar_java() {
 
     return [
         {
+            text: '环境变量',
+            collapsible: true,                     // 折叠
+            items: [
+                { text: 'Mac使用brew安装JDK', link: '/java/configure/Mac使用brew安装JDK' },
+                { text: 'Mac系统切换多版本JDK', link: '/java/configure/Mac系统切换多版本JDK' },
+                { text: '文档测试3', link: '/java/base/文档测试3' }
+            ]
+        },
+        {
             text: 'Java基础',
             collapsible: true,                     // 折叠
             items: [

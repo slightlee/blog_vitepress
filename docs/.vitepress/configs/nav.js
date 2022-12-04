@@ -5,6 +5,7 @@ module.exports = [
     {
         text: 'Java',
         items: [
+            { text: '环境配置', link: '/java/configure/Mac使用brew安装jdk' },
             { text: 'Java基础', link: '/java/base/文档测试1' },
             { text: 'Java进阶', link: '/java/advanced/文档测试1' }
         ]
