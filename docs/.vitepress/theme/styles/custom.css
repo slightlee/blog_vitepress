@@ -145,3 +145,9 @@ https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/var
     }
 
 }
+
+/*置灰*/
+.Layout{
+    filter: grayscale(1)
+}
+
